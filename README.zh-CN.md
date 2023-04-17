@@ -7,7 +7,7 @@
 ## Url 格式
 
 ```
-https://antv.github.io/text-schema/[version].json
+https://antv.vision/ntv-schema/[version].json
 ```
 
 [version]定义您获取架构的库的版本。未指定版本匹配未指定部分的最新版本。例如 v1 匹配最新的主要版本，v1.1 匹配最新的次要版本，v1.1.1 匹配一个确切的版本。
