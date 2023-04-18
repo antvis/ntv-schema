@@ -1031,60 +1031,6 @@
       ],
       "type": "string"
     },
-    "EscapePhraseSpec": {
-      "additionalProperties": false,
-      "description": "escape character 支持转义字符",
-      "properties": {
-        "className": {
-          "type": "string"
-        },
-        "key": {
-          "type": "string"
-        },
-        "styles": {
-          "$ref": "#/definitions/React.CSSProperties"
-        },
-        "type": {
-          "const": "escape",
-          "type": "string"
-        },
-        "value": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "type",
-        "value"
-      ],
-      "type": "object"
-    },
-    "FormulaPhraseSpec": {
-      "additionalProperties": false,
-      "description": "math formula",
-      "properties": {
-        "className": {
-          "type": "string"
-        },
-        "key": {
-          "type": "string"
-        },
-        "styles": {
-          "$ref": "#/definitions/React.CSSProperties"
-        },
-        "type": {
-          "const": "formula",
-          "type": "string"
-        },
-        "value": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "type",
-        "value"
-      ],
-      "type": "object"
-    },
     "Globals": {
       "enum": [
         "-moz-initial",
@@ -1208,12 +1154,6 @@
         },
         {
           "$ref": "#/definitions/EntityPhraseSpec"
-        },
-        {
-          "$ref": "#/definitions/EscapePhraseSpec"
-        },
-        {
-          "$ref": "#/definitions/FormulaPhraseSpec"
         },
         {
           "$ref": "#/definitions/CustomPhraseSpec<CustomMetaData>"
